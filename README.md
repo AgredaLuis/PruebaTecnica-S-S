@@ -30,10 +30,10 @@ Pasos para instalar y ejecutar el proyecto en tu entorno local:
      ```bash
      http://localhost:3000
 
-- ***Pruebas***
+ ***Pruebas***
     ```bash
      npm test
-- ***Herramientas Utilizadas***
+ ***Herramientas Utilizadas***
 
 - Next.js 14: Framework de React para aplicaciones web.
 - TypeScript: Un superconjunto de JavaScript que añade tipos estáticos.
