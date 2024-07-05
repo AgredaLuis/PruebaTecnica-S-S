@@ -1,0 +1,16 @@
+.interest {
+  background-color: var(--muted);
+  color: var(--muted-foreground);
+  padding: 0.5rem 1rem;
+
+  border-radius: 9999px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.interest:hover {
+  transform: scale(1.05);
+  background-color: var(--muted-hover);
+  color: var(--muted-foreground-hover);
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
