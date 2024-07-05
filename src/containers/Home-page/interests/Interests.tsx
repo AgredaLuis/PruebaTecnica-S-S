@@ -3,14 +3,15 @@ import SectionTitle from '../../../components/ui/SectionTitle/SectionTitle';
 import styles from './Interests.module.css';
 
 
-/* Datos pedidos de la API  */
+
 const ListInterests = [
   { id: 1, interest: 'Web Development' },
   { id: 2, interest: 'Open Source' },
   { id: 3, interest: 'Volleyball' },
-  { id: 4, interest: 'Hiking' },
+  { id: 4, interest: 'Dance' },
   { id: 5, interest: 'Anime' },
   { id: 6, interest: 'Self-taught person' },
+  { id: 7, interest: 'insightful ' },
 ];
 
 const Interests = () => {

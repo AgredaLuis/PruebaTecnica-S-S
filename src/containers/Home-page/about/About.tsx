@@ -5,10 +5,11 @@ const About = () => {
     <section className={`${styles.about}`}>
       <SectionTitle title="Sobre mi" />
       <p className={styles.description}>
-        I'm a passionate software engineer with a love for building innovative
-        and user-friendly applications. In my free time, I enjoy exploring new
-        technologies, reading about the latest industry trends, and contributing
-        to open-source projects.
+        Soy estudiante de ultimo semestre de la carrera de Ingeniería en
+        Computacion, actualmente en proceso de tesis para optar por el titulo, A traves de
+        la experiencia note que me lo que mas atrapa mi atencion, es impulsar
+        marcas a travez de la tecnologia. Dando un proposito de contribucion,
+        servicio y con impacto.
       </p>
     </section>
   );
