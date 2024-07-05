@@ -36,9 +36,24 @@
 
 
 @media (min-width: 640px) {
+  
   .header {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .profileImg {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+
+@media (min-width: 1080px) {
+  
+  .header {
+   padding-left: 200px;
   }
 
   .profileImg {

@@ -1,6 +1,7 @@
 .interests {
   margin-bottom: 2rem;
   animation: fadeInUp 0.8s ease-out;
+  cursor: default;
 }
 
 .interestsList {
