@@ -21,6 +21,13 @@
   font-size: 0.875rem;
 }
 
+.success {
+  color: var(--success);
+  min-height: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
 .input,
 .textarea {
   padding: 0.7rem;

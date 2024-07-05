@@ -2,6 +2,7 @@
 import { useForm, SubmitHandler } from "react-hook-form";
 import styles from "./ContactForm.module.css";
 import toast from "react-hot-toast";
+import { useState } from "react";
 
 interface FormInput {
   name: string;
@@ -10,6 +11,8 @@ interface FormInput {
 }
 
 const ContactForm = () => {
+ const [success, setSuccess] = useState<boolean>(false);
+
   const {
     register,
     handleSubmit,
@@ -20,6 +23,7 @@ const ContactForm = () => {
   const onSubmit: SubmitHandler<FormInput> = (data) => {
     console.log(data);
     toast.success("Su mensaje ha sido enviado");
+    setSuccess(true);
     reset();
   };
 
@@ -82,6 +86,11 @@ const ContactForm = () => {
           <p className={styles.error}>{errors.message.message}</p>
         )}
       </div>
+      {
+        success
+          ? <p className={styles.success}>Su mensaje ha sido enviado</p>
+          : null
+      }
       <button type="submit" className={styles.button}>
         Enviar
       </button>

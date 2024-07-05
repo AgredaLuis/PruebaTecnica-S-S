@@ -6,6 +6,7 @@
     --muted: hsl(240, 4.8%, 95.9%);
     --muted-foreground: hsl(240, 3.8%, 45%);
     --destructive: hsl(0, 72%, 51%);
+    --success:hsl(100, 50%, 30%);
     --border: hsl(240, 5.9%, 90%);
   }
 
