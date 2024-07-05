@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyecto de Nextjs Perfil de usuario 
 
-## Getting Started
+Este es un proyecto de ejemplo creado con Next.js 14, TypeScript, y CSS Modules. El proyecto incluye un formulario de contacto con validación utilizando `react-hook-form` y pruebas básicas con Jest y Testing Library. Caracteristicas expesificas para cumplir con la prueba tecnica de SyS
 
-First, run the development server:
+## Requisitos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (versión 14 o superior)
+- npm o yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalación
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Pasos para instalar y ejecutar el proyecto en tu entorno local:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clonar el repositorio y entrar en la carpeta:**
+ A traves de la consola de comando o shells escribir los siguientes comando
+   ```bash
+   git clone https://github.com/AgredaLuis/PruebaTecnica-S-S.git
+   cd PruebaTecnica-S-S
 
-## Learn More
+2. **Instalar dependencias**
+     ```bash
+    npm i
+    
+3. **Levantar el servidor**
+     ```bash
+    npm run dev
+    
+4. **abrir el navegador**
+ escribir en el naveador la siguiente URL
+     ```bash
+     http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+- ***Pruebas***
+    ```bash
+     npm test
+- ***Herramientas Utilizadas***
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js 14: Framework de React para aplicaciones web.
+- TypeScript: Un superconjunto de JavaScript que añade tipos estáticos.
+- CSS Modules: Una forma de escribir CSS que se aplica solo al componente en el que se importa.
+- react-hook-form: Biblioteca para manejar formularios en React.
+- Jest: Framework de pruebas para JavaScript.
+- Testing Library: Conjunto de utilidades para probar componentes de React.
